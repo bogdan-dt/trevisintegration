@@ -23,7 +23,7 @@ class IsPrimeTests(unittest.TestCase):
             self.assertTrue(is_prime(5))
 
     def test_six(self):
-            self.assertTrue(is_prime(6))
+            self.assertFalse(is_prime(6))
 
 if __name__ == "__main__":
         unittest.main()
