@@ -19,7 +19,11 @@ class IsPrimeTests(unittest.TestCase):
     def test_four(self):
             self.assertFalse(is_prime(4))
 
+    def test_five(self):
+            self.assertTrue(is_prime(5))
+
+    def test_six(self):
+            self.assertTrue(is_prime(6))
+
 if __name__ == "__main__":
         unittest.main()
-
-        
