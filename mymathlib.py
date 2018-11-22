@@ -1,6 +1,7 @@
 import math
 
 def is_prime(n):
+        #push new feature into master
         if n < 2:
             return False
 
